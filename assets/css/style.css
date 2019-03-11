@@ -1,0 +1,495 @@
+body {
+    background-color: #fdfdfd;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*----------NAVBAR---------*/
+
+.navbar {
+    background: none;
+    border-color: transparent;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+    border-top: 1px solid transparent;
+    overflow-x: hidden;
+}
+
+.navbar-nav li a {
+    padding: 20px 25px 15px 25px;
+    color: transparent;
+}
+
+.navbar-fixed-top .container {
+    text-align: right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.language {
+    display: inline-block;
+    padding-right: 20px;
+    line-height: 44px;
+}
+
+.language:hover {
+    color: #564F6F!important;
+    text-decoration: none;
+}
+
+a {
+    background-color: #E4E4E4;
+    color: #040404;
+    font-size: 1.12em;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #564F6F;
+}
+
+.navbar-right {
+    float: right!important;
+}
+
+@media (max-width: 5000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+}
+
+/*----------JUMBOTRON----------*/
+
+#landing-view {
+    background-attachment: fixed;
+    background-image: url('../images/ganesha-background.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.top {
+    padding-left: 12px;
+    margin-top: 12%;
+}
+
+h1 {
+    padding-top: 5%;
+    font-size: 5.5em;
+}
+
+.jumbotron p {
+    font-size: 2em;
+}
+
+/*----------------------------------------------- Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/*----------------------------------------------- Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+/*----------------------------------------------- next/previous buttons */
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #fec612;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.nextprev a.w3-right, .nextprev a.w3-left {
+    background-color: #fec612;
+    color: #ffffff;
+    border-color: #fec612;
+}
+
+.nextprev a:link, .nextprev a:visited {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.w3-btn, .w3-btn:link, .w3-btn:visited {
+    color: #FFFFFF;
+    background-color: #fec612;
+}
+
+.nextprev a {
+    font-size: 17px;
+    border: 1px solid #cccccc;
+}
+
+.w3-left {
+    float: left!important;
+}
+
+.w3-centre {
+    float: none!important;
+}
+
+.w3-right {
+    float: right!important;
+}
+
+.w3-btn, .w3-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+/*------------Aim of website----------*/
+
+#web-aim {
+    background-attachment: fixed;
+    background-color:#ffffff;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.about-row {
+    padding-bottom: 10%;
+    font-size: 1.75em;
+    line-height: 2;
+}
+
+h2 {
+    margin-left: 15px;
+    margin-top: 15%;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.about-row .about-p {
+    font-size: .8em;
+    margin: 40px 0px 40px 0px;
+}
+
+/*------------Stories Available----------*/
+
+#stories {
+    background-attachment: fixed;
+    background-color:#f56502;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.card-body .row {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.project-cards {
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.col-xs-6 {
+    align-items: center;
+}
+
+.card {
+    background-color: #f5650291;
+    border-radius: 2.5%;
+    width: 18em;
+    height: 18em;
+    top: 50%;
+    left: 50%;
+    margin: 15% auto;
+    padding: 15px;
+    align-items: center;
+    z-index: 2;
+    display: block;
+    opacity: 0.8;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+.card-title {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.card-body .card-text {
+    font-size: 1.07em;
+}
+
+/*-----------FOOTER----------*/
+
+footer {
+    border-color: transparent;
+    text-align: center;
+}
+
+.foot {
+    margin-bottom: 20px;
+}
+
+a {
+    padding: 5px 15px 5px 10px;
+    background-color: transparent;
+}
+
+.alignment {
+    line-height: 2px;
+}
+
+i {
+    display: inline-block;
+    box-shadow: 0px 0px 2px #888;
+    background-color: #C3C3C3;
+    color: #8F8F8F;
+    width: 41px;
+    height: 41px;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+
+}
+
+i:hover {
+    color: #564F6F;
+
+}
+
+/*-------CONTACT-----------*/
+
+#contact {
+    background-attachment: fixed;
+    background-image: url('../images/ganesha-background.jpg');
+    background-position: left;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 42px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    position: relative;
+    top: 6%;
+}
+
+#contact-head {
+    margin: 30px -11px 25px 0px;
+}
+
+.contact {
+    margin: 15px 0px 15px 0px;
+}
+
+/* ----------Contact Form  Modal --------*/
+
+.modal-body {
+    font-size: 1.15em;
+}
+
+.btn-default {
+    background-color: #ccc;
+}
+
+.privacy-policy {
+    color: #424242;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+a.privacy-policy {
+    font-size: inherit;
+}
+
+a.privacy-policy:hover {
+    color: #564F6F;
+    text-decoration: none;
+}
+
+/*-----------MEDIA QUERIES----------*/
+
+@media (max-width: 768px) and (min-width: 375px) {
+    .scroll-stories {
+        width: 80%;
+    }
+    .fa-chevron-down {
+        margin-top: 52vh;
+    }
+}
+
+@media (max-width: 992px) {
+    #contact, #stories, #landing-view{
+        background-attachment: scroll;
+    }
+}
+
+@media (min-width: 992px) {
+    #web-aim {
+        background-color:#ffffff;
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+    }
+    .fa-chevron-down {
+        margin-top: 32vh;
+    }
+}
+
+/*----------------------------------------------- Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
