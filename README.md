@@ -11,8 +11,7 @@ AIM OF PROJECT:
 
 MOCKUPS
 
-- word document explaining the thought process 
-- testing and reasons for the changes 
+- The initial plan for the website had an alternative options placed within them as well. As shown in wireframe folder there are some changes made to suit childrens needs and to make it user freindly. 
 
 UX:
 
@@ -68,8 +67,9 @@ This site was tested across multiple browsers (Chrome, Internet Explorer, Safari
 
 USER STORIES
 
-- checked the website with some children from family friends. 
-    - response from the children 
+- The colours attrack the childrens attention and with the toys are attractive for young children. 
+    - However, to retain childrens interest need games and interaction tool. 
+    - These will be added in later using Javascript. 
 
 DEPLOYMENT
 
@@ -90,5 +90,5 @@ All photos were taken from the websites ensuring these are all 'free to use, sha
 ACKNOWLEDGEMENTS
 
 The layouts ideas where gathered from a variety of different sources (as listed below):
-- https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive#features
+- https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive
 - The media query for the collapsed navbar regardless of viewport width was taken from here (https://www.codeply.com/go/iaM1zcNsQB/bootstrap-navbar-always-collapsed).# uc-frontend-project1
