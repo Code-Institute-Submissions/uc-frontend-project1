@@ -6,7 +6,7 @@ AIM OF PROJECT:
 2. To provide video learning experience for the children through cartoon and the moral of the story which goes with these.
     - Currently there are not much exposure to Hinduism in foreign countries and sharing the stories through cartoons targets the young showing them some interests 
 3. Help the users to learn to from the cartoons and the history of the religion in a fun and exciting way allowing for a better understanding of the subject.
-    - There will be 5 stories (currently on this website, more to be added later) 
+    - There will be 4 stories (currently on this website, more to be added later) 
     - Devotional songs to listen to
 
 MOCKUPS
