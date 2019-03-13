@@ -48,7 +48,7 @@ FEATURES
 
 - Home page allows the user to select the God/Goddess the children will be looking at 
 - Cartoons can be selected by language the parents or the children are most comfortable in watching. 
-- The website will be written in both English and Tamil as the aim is to be user friendly for both parents and children globally. 
+- The website is written in English however, the videos and songs are in tamil as the aim is to be user friendly for both parents and children globally. 
 - The navbar remains collapsed throughout the different screen sizes for a simpler design. 
 
 FEATURES LEFT TO IMPLEMENT
