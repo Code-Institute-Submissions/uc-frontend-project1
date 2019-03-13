@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/*----------NAVBAR---------*/
+/*------------------------------ NAVBAR ------------------------------*/
 
 .navbar {
     background: none;
@@ -57,6 +57,7 @@ a {
     padding-left: 10px;
     padding-right: 10px;
     transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
@@ -107,7 +108,7 @@ a {
     }
 }
 
-/*----------JUMBOTRON----------*/
+/*------------------------------ JUMBOTRON ------------------------------*/
 
 #landing-view {
     background-attachment: fixed;
@@ -134,7 +135,7 @@ h1 {
     font-size: 2em;
 }
 
-/*----------------------------------------------- Block dividers */
+/*------------------------------ Block dividers ------------------------------*/
 
 .block-divider {
     width: 75px;
@@ -155,7 +156,7 @@ h1 {
     width: 35px;
 }
 
-/*----------------------------------------------- Buttons */
+/*------------------------------ Buttons ------------------------------*/
 
 .btn--cta {
     font-weight: bold;
@@ -178,7 +179,7 @@ h1 {
     color: white;
 }
 
-/*----------------------------------------------- next/previous buttons */
+/*------------------------------ next/previous buttons ------------------------------*/
 
 a {
   text-decoration: none;
@@ -261,7 +262,7 @@ a:hover {
     white-space: nowrap;
 }
 
-/*------------Aim of website----------*/
+/*------------------------------ Aim of website ------------------------------*/
 
 #web-aim {
     background-attachment: fixed;
@@ -294,7 +295,7 @@ h2 {
     margin: 40px 0px 40px 0px;
 }
 
-/*------------Stories Available----------*/
+/*------------------------------ Stories Available ------------------------------*/
 
 #stories {
     background-attachment: fixed;
@@ -339,8 +340,9 @@ h2 {
     display: block;
     opacity: 0.8;
     transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 .card:hover {
@@ -361,7 +363,23 @@ h2 {
     font-size: 1.07em;
 }
 
-/*-----------FOOTER----------*/
+/*------------------------------ Video container ------------------------------*/
+
+.video-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.video-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*------------------------------ FOOTER ------------------------------*/
 
 footer {
     border-color: transparent;
@@ -394,6 +412,7 @@ i {
     text-align: center;
     vertical-align: middle;
     transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
     margin-top: 2.5px;
@@ -406,11 +425,11 @@ i:hover {
 
 }
 
-/*-------CONTACT-----------*/
+/*------------------------------ CONTACT ------------------------------*/
 
 #contact {
     background-attachment: fixed;
-    background-image: url('../images/ganesha-background.jpg');
+    background-color: #ffffff;
     background-position: left;
     background-size: cover;
     padding-bottom: 100px;
@@ -432,7 +451,7 @@ i:hover {
     margin: 15px 0px 15px 0px;
 }
 
-/* ----------Contact Form  Modal --------*/
+/*------------------------------ Contact Form  Modal ------------------------------*/
 
 .modal-body {
     font-size: 1.15em;
@@ -457,7 +476,7 @@ a.privacy-policy:hover {
     text-decoration: none;
 }
 
-/*-----------MEDIA QUERIES----------*/
+/*------------------------------ MEDIA QUERIES ------------------------------*/
 
 @media (max-width: 768px) and (min-width: 375px) {
     .scroll-stories {
@@ -481,12 +500,9 @@ a.privacy-policy:hover {
         background-size: cover;
         width: 100vw;
     }
-    .fa-chevron-down {
-        margin-top: 32vh;
-    }
 }
 
-/*----------------------------------------------- Page Headers */
+/*------------------------------ Page Headers ------------------------------*/
 
 .page-header {
     margin-bottom: 0;
