@@ -19,7 +19,7 @@ The goal in the design was to make it user friendly for children and to make it 
 
 From the home page I would like to create a brief overview of the aim of the website and parts which will be updated later. In addition to this the website is also child friendly with the use of images and simple languages to provide them with easy access throughout the website. This was decided as there are some children who may not be able to read all the words of the website, therefore, these children can use the help of their parents and use images to recognise where they are on the website. 
 
-There is also an option for both parents and children to leave comments, questions and contact us if they choose to. As I am bilingual, I have chosen to allow children to be able to watch the cartoons in different languages so that the website can be used worldwide. Languages used will be English, Tamil and Hindi. 
+There is also an option for both parents and children to leave comments, questions and contact us if they choose to. 
 
 TECHNOLOGIES:
 
@@ -54,6 +54,7 @@ FEATURES
 FEATURES LEFT TO IMPLEMENT
 
 In the future, I would like to add a working map showing a detailed location of the different ancient temples as well as some information on these locations. 
+    - As well as this add options for the website to be viewed in mulitple languages.
 
 TESTING 
 
