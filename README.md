@@ -12,6 +12,8 @@ AIM OF PROJECT:
 MOCKUPS
 
 - The initial plan for the website had an alternative options placed within them as well. As shown in wireframe folder there are some changes made to suit childrens needs and to make it user freindly. 
+- Changes were later created after talking to some parents of young children and viewing children focused webistes. 
+    - Final version has merged aaspects which have been shown to be the easiest to use by children without confusing them. 
 
 UX:
 
@@ -66,6 +68,14 @@ All links have been manually tested in order to ensure they are all working corr
 
 This site was tested across multiple browsers (Chrome, Internet Explorer, Safari) and on multiple mobile devices (iPhone 4, 5, 7; Samsung Galaxy s8; iPad) to ensure compatibility and responsiveness. 
 
+Bugs:
+- The video pages next / previous / home button did not respond sue to over lay of "video-container"
+- In speaking to my tutor he advised on changing in codes in html files. 
+
+- Text in the top half of the video links pages were overlayed by the overview section which followed - this was only visible in mobile views.
+- Addition of code in html file to bring one section above the other 
+    - similar to the video view solution 
+
 USER STORIES
 
 - The colours attrack the childrens attention and with the toys are attractive for young children. 
@@ -74,19 +84,17 @@ USER STORIES
 
 DEPLOYMENT
 
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. For the site to deploy correctly on GitHub pages, the landing page must be named index.html.
-
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/lith-visi/User-Centric-Frontend-Development.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal. 
+To run the site you can use the following link: https://lith-visi.github.io/uc-frontend-project1/
 
 CREDIT
 
 CONTENT 
 
-All the content in the English site were written by myself whereas, the Tamil version of the site was written with the help of my husband. 
+All the content in the English site were written by myself, with alterations made through testings with niece and newphews.  
 
 MEDIA
 
-All photos were taken from the websites ensuring these are all 'free to use, share or modify, even commercially'. 
+All photos were taken from the websites ensuring these are all 'free to use, share or modify, even commercially'.
 
 ACKNOWLEDGEMENTS
 
