@@ -115,8 +115,11 @@ a {
     background-image: url('../images/ganesha-background.jpg');
     background-position: bottom;
     background-size: cover;
-    height: 100vh;
+    background-repeat: no-repeat;
     width: 100vw;
+    padding-bottom: 50px;
+    position: relative;
+    font-weight: 300;
     margin-bottom: 0px;
     z-index: 1;
 }
@@ -133,6 +136,15 @@ h1 {
 
 .jumbotron p {
     font-size: 2em;
+}
+
+.lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    position: relative;
+    z-index: 1;
 }
 
 /*------------------------------ Block dividers ------------------------------*/
