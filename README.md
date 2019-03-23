@@ -1,6 +1,6 @@
-###Stream One Project: User-Centric Frontend Development - Code Institute
+<h1>Stream One Project: User-Centric Frontend Development - Code Institute</h1>
 
-##AIM OF PROJECT:
+<h2>AIM OF PROJECT: </h2>
 
 1. This website is to create a platform for parents to teach young children aged 2+ on Hinduism and the morals of the stories provided. 
 2. To provide video learning experience for the children through cartoon and the moral of the story which goes with these.
@@ -9,13 +9,13 @@
     - There will be 4 stories (currently on this website, more to be added later) 
     - Devotional songs to listen to
 
-##MOCKUPS
+<h2>MOCKUPS</h2>
 
 - The initial plan for the website had an alternative options placed within them as well. As shown in wireframe folder there are some changes made to suit childrens needs and to make it user freindly. 
 - Changes were later created after talking to some parents of young children and viewing children focused webistes. 
     - Final version has merged aaspects which have been shown to be the easiest to use by children without confusing them. 
 
-##UX:
+<h2>UX:</h2>
 
 The goal in the design was to make it user friendly for children and to make it easy to use for both parents and children. As a result, I have looked at a minimalist design for the layout. The bright colour scheme was chosen after studying multiple websites aimed at children. 
 
@@ -23,7 +23,7 @@ From the home page I would like to create a brief overview of the aim of the web
 
 There is also an option for both parents and children to leave comments, questions and contact us if they choose to. 
 
-##TECHNOLOGIES:
+<h2>TECHNOLOGIES: </h2>
 
 - HTML5
 - CSS
@@ -46,19 +46,19 @@ There is also an option for both parents and children to leave comments, questio
 - Cloud 9
     - Used as the main editor 
 
-##FEATURES
+<h2>EATURES</h2>
 
 - Home page allows the user to select the God/Goddess the children will be looking at 
 - Cartoons can be selected by language the parents or the children are most comfortable in watching. 
 - The website is written in English however, the videos and songs are in tamil as the aim is to be user friendly for both parents and children globally. 
 - The navbar remains collapsed throughout the different screen sizes for a simpler design. 
 
-##FEATURES LEFT TO IMPLEMENT
+<h2>FEATURES LEFT TO IMPLEMENT </h2>
 
 In the future, I would like to add a working map showing a detailed location of the different ancient temples as well as some information on these locations. 
     - As well as this add options for the website to be viewed in mulitple languages.
 
-##TESTING 
+<h2>TESTING </h2>
 
 The children friendly user story achieved the intended outcome of providing them with a showcase of cartoons and songs to listen to in the background. In the background section, both the parents and children can both read reading the aim of the website. If this is being viewed on a desktop, the background of the section is a photo of 'Om', however, on smaller devices such as mobile phones only the bright colour is visible. 
 
@@ -68,7 +68,7 @@ All links have been manually tested in order to ensure they are all working corr
 
 This site was tested across multiple browsers (Chrome, Internet Explorer, Safari) and on multiple mobile devices (iPhone 4, 5, 7; Samsung Galaxy s8; iPad) to ensure compatibility and responsiveness. 
 
-##Bugs:
+<h2>Bugs: </h2>
 - The video pages next / previous / home button did not respond sue to over lay of "video-container"
 - In speaking to my tutor he advised on changing in codes in html files. 
 
@@ -79,27 +79,27 @@ This site was tested across multiple browsers (Chrome, Internet Explorer, Safari
 - Footer was not working correctly as images of social media were not showing. 
     - Corrected by adding in links used/needed within the HTML5 pages 
 
-##USER STORIES
+<h2>USER STORIES </h2>
 
 - The colours attrack the childrens attention and with the toys are attractive for young children. 
     - However, to retain childrens interest need games and interaction tool. 
     - These will be added in later using Javascript. 
 
-##DEPLOYMENT
+<h2>DEPLOYMENT </h2>
 
 To run the site <a href="https://lith-visi.github.io/uc-frontend-project1/">Here. </a>
 
-##CREDIT
+<h2>CREDIT </h2>
 
-#CONTENT 
+<h3>CONTENT </h3>
 
 All the content in the English site were written by myself, with alterations made through testings with niece and newphews.  
 
-#MEDIA
+<h3>MEDIA </h3>
 
 All photos were taken from the websites ensuring these are all 'free to use, share or modify, even commercially'.
 
-#ACKNOWLEDGEMENTS
+<h3>ACKNOWLEDGEMENTS </h3>
 
 The layouts ideas where gathered from a variety of different sources (as listed below):
 - <a href="https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive"> Code Institute exmaples </a>
