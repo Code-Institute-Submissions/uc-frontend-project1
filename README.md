@@ -82,6 +82,9 @@ This site was tested across multiple browsers (Chrome, Internet Explorer, Safari
 - Images did not run when previewed through Github 
     - removed th "/" from the start of links to songs, videos and images 
 
+- Images were not showing up clearly when ran directly through the deployment link. 
+    - This was resolved by changing the links setup. (e.g.removing the "/" )
+
 <h2>USER STORIES </h2>
 
 - The colours attrack the childrens attention and with the toys are attractive for young children. 
