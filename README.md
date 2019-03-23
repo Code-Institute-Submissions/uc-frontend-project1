@@ -46,14 +46,14 @@ There is also an option for both parents and children to leave comments, questio
 - Cloud 9
     - Used as the main editor 
 
-<h2>EATURES</h2>
+<h2>FEATURES</h2>
 
 - Home page allows the user to select the God/Goddess the children will be looking at 
 - Cartoons can be selected by language the parents or the children are most comfortable in watching. 
 - The website is written in English however, the videos and songs are in tamil as the aim is to be user friendly for both parents and children globally. 
 - The navbar remains collapsed throughout the different screen sizes for a simpler design. 
 
-<h2>FEATURES LEFT TO IMPLEMENT </h2>
+<h3>FEATURES LEFT TO IMPLEMENT </h3>
 
 In the future, I would like to add a working map showing a detailed location of the different ancient temples as well as some information on these locations. 
     - As well as this add options for the website to be viewed in mulitple languages.
