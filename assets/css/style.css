@@ -117,7 +117,7 @@ a {
 /*------------------------------ JUMBOTRON ------------------------------*/
 
 #landing-view {
-    background-image: url('../images/ganesha-background.jpg');
+    background-image: url('../assets/images/ganesha-background.jpg');
     background-position: bottom;
     background-size: cover;
     -o-background-size: cover;
