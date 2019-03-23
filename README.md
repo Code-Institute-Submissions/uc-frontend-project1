@@ -79,6 +79,9 @@ This site was tested across multiple browsers (Chrome, Internet Explorer, Safari
 - Footer was not working correctly as images of social media were not showing. 
     - Corrected by adding in links used/needed within the HTML5 pages 
 
+- Images did not run when previewed through Github 
+    - removed th "/" from the start of links to songs, videos and images 
+
 <h2>USER STORIES </h2>
 
 - The colours attrack the childrens attention and with the toys are attractive for young children. 
