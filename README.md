@@ -73,8 +73,11 @@ Bugs:
 - In speaking to my tutor he advised on changing in codes in html files. 
 
 - Text in the top half of the video links pages were overlayed by the overview section which followed - this was only visible in mobile views.
-- Addition of code in html file to bring one section above the other 
+- Additional code in html file to bring one section above the other 
     - similar to the video view solution 
+
+- Footer was not working correctly as images of social media were not showing. 
+    - Corrected by adding in links used/needed within the HTML5 pages 
 
 USER STORIES
 
